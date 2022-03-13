@@ -24,3 +24,28 @@ h2 {
     margin-top: 48px;
     margin-bottom: 50px;
 }
+
+.mouse-click {
+    margin-top: 200px;
+}
+.header h1{
+    font-size: 60px;
+    color: white;
+}
+.header p {
+    font-size: 19px;
+    color: white;
+}
+
+
+/* about us section */
+.about-us {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+.about-us p{
+    font-size: 22px;
+}
