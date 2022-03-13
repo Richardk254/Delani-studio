@@ -75,3 +75,85 @@ h2 {
 .product-text{
     display: none;
 }
+#hidden1, #hidden2, #hidden3, #hidden4, #hidden5, #hidden6, #hidden7, #hidden8 {
+    display: none;
+    background-color:rgba(250, 245, 245, 0.456);
+    position: relative;
+    bottom: 240px;
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 50PX;
+    border: 2px solid white;
+    margin-bottom: -140px;
+}
+
+/* contact us section */
+
+.contact-us{
+    text-align: center;
+    background-image: url(images/c_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    color: white;
+}
+form{
+    text-align: center;
+    margin-left: 420px;
+}
+#mce-FNAME{
+    width: 400px;
+    height: 30px;
+    margin-right: 12px;
+    background-color: transparent;
+    border: 1px solid rgb(243, 240, 240);
+}
+#mce-EMAIL{
+    width: 400px;
+    height: 30px;
+    margin-left: 12px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(243, 240, 240);
+}
+#message{
+    width: 830px;
+    height: 250px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 1px solid rgb(243, 240, 240);
+    vertical-align: top;
+}
+::placeholder{
+    color: white;
+    min-height: 10em;
+    vertical-align: top;
+    display: table-cell;
+    justify-content: top;
+}
+
+/* footer */
+
+.footer{
+    text-align: center;
+    padding-top: 30px;
+    line-height: 10px;
+}
+.footer-logo {
+    padding-top: 30px;
+}
+.social-icons img {
+    padding-left: 15px;
+}
+.btn {
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+}
