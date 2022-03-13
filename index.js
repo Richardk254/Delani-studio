@@ -23,3 +23,13 @@ $(document).ready(function() {
         $(".product-text").hide("1000");
         $(".product-icon").show("1000");
     })
+
+    $(".image").mouseover(function(){
+        $("#hidden1").show()
+    })
+    $(".image").mouseout(function(){
+        $("#hidden1").hide()
+    })
+    $(".image1").mouseover(function(){
+        $("#hidden2").show()
+    })
