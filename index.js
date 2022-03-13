@@ -74,23 +74,23 @@ $(document).ready(function() {
     })
 })
 
-// var email=document.getElementById("mce-EMAIL").value;
-// function validateEmail(mail) {
-//     var name=document.getElementById("mce-FNAME").value;
-//     var email=document.getElementById("mce-EMAIL").value;
-//     if (name===""||name===null) {
-//         alert("Please enter your name")
-//         return false
-//     }
-//     var mailFormat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-//     if(email.match(mailFormat))
-//     {
-//     alert(name + ' we have received your email. Thank you for contacting us.');
-//     return true;
-//     }
-//     else
-//     {
-//     alert("You have entered an invalid email address!");
-//     return false;
-//     }
-// }
+var email=document.getElementById("mce-EMAIL").value;
+function validateEmail(mail) {
+    var name=document.getElementById("mce-FNAME").value;
+    var email=document.getElementById("mce-EMAIL").value;
+    if (name===""||name===null) {
+        alert("Please enter your name")
+        return false
+    }
+    var mailFormat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    if(email.match(mailFormat))
+    {
+    alert(name + ' we have received your email. Thank you for contacting us.');
+    return true;
+    }
+    else
+    {
+    alert("You have entered an invalid email address!");
+    return false;
+    }
+}
