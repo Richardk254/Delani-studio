@@ -7,4 +7,3 @@ $(document).ready(function() {
         $(".design-text").hide("1000");
         $(".design-icon").show("1000");
     })
-    
