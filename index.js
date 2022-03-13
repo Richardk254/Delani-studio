@@ -24,6 +24,7 @@ $(document).ready(function() {
         $(".product-icon").show("1000");
     })
 
+
     $(".image").mouseover(function(){
         $("#hidden1").show()
     })
@@ -73,6 +74,7 @@ $(document).ready(function() {
         $("#hidden8").hide()
     })
 })
+
 
 var email=document.getElementById("mce-EMAIL").value;
 function validateEmail(mail) {
