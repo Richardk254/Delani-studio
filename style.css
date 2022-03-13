@@ -157,3 +157,32 @@ form{
     color: white;
     font-size: 18px;
 }
+::placeholder{
+    color: white;
+    min-height: 10em;
+    vertical-align: top;
+    display: table-cell;
+    justify-content: top;
+}
+
+/* footer */
+
+.footer{
+    text-align: center;
+    padding-top: 30px;
+    line-height: 10px;
+}
+.footer-logo {
+    padding-top: 30px;
+}
+.social-icons img {
+    padding-left: 15px;
+}
+.btn {
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+}
